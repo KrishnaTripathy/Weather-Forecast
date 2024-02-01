@@ -1,0 +1,105 @@
+.weather {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 6px;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+  color: #fff;
+  background-color: #333;
+  margin: 20px auto 0 auto;
+  padding: 0 20px 20px 20px;
+}
+
+.top,
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  margin: 10px 0;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.weather-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.weather-icon {
+  width: 80px; 
+}
+
+.temperature {
+  font-weight: 600;
+  font-size: 40px; 
+  width: auto;
+  letter-spacing: -3px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.details {
+  width: 100%;
+  padding-left: 0; 
+}
+
+.parameter-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parameter-label,
+.parameter-value {
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  margin: 2px 0;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.toggle-buttons button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-buttons button:hover {
+  background-color: #777;
+}
+
+.toggle-buttons button.active {
+  background-color: #333;
+}
+
+
+@media (max-width: 600px) {
+  .weather {
+    max-width: 100%;
+  }
+
+  .temperature {
+    font-size: 30px;
+  }
+
+  .weather-icon {
+    width: 60px;
+  }
+}
