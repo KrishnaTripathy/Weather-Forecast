@@ -37,9 +37,9 @@ Open your browser and visit http://localhost:3000 to view the application.
 https://weather-forecast-sandy-nu.vercel.app/
 
 ### Technologies Used
-React
-OpenWeatherMap API (for weather data)
-RapidAPI(GeoDB Cities)
+1. React
+2. OpenWeatherMap API (for weather data)
+3. RapidAPI(GeoDB Cities)
 
 
 
